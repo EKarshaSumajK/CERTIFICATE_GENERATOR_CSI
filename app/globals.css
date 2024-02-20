@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@layer base {
+  img {
+    @apply inline-block;
+  }
+}
+*{
+  
+  
+} 
+.main{
+  height: 100%;
+}
+
+.borderGradient{
+  max-width: 1200px;
+  padding: 1rem;
+  position: relative;
+  background: linear-gradient(to right, #58D7FC, #F8FFA3);
+  border-radius: 12px;
+  padding: 3px;
+}
+
+.innerBorder {
+  border-radius: 12px;
+  background: black;
+  color: white;
+  padding: 2rem;
+}
+
+#error-message {
+  color: rgb(255, 0, 119);
+  font-weight: bold;
+  margin-top: 10px;
+}
